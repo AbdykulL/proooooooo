@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%) ;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif; ;
+}
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+    
+    
+
+
+
+
+}
+.right{
+    
+    text-align: left;
+    padding: 90px 40px;
+    
+    color: white ;
+    
+    
+    }
+
+    
+
+
+.right h1 {
+    font-size: 50px
+}
+.blackp{
+    color: white ;
+    text-align: left;
+    font-size: 18px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+.feo {
+    width: 450px;
+    height: 50px;
+    background-color:hsl(248, 32%, 49%);
+    border: none;
+    box-shadow: 0px 6px 3px 0px rgba(0, 0, 0, 0.267);
+    border-radius: 10px;
+
+}
+.container2{
+    width: 450px;
+    height: auto;
+    background-color: white ;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    box-shadow: 0px 6px 3px 0px rgba(0, 0, 0, 0.201);
+
+}
+input {
+    
+    width: 400px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: white ;
+    padding: 20px;
+    margin-top: 10px;
+    border: 1px solid rgb(152, 140, 140);
+    
+    
+}
+.green{
+    width: 400px;
+    height: 45px;
+    background-color: hsl(154, 59%, 51%);
+    color:white ;
+    border:none ;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+p{
+    font-size: 10px;
+    color: grey;
+    text-align: center;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: orange;
+
+}
+@media screen and (max-width:450px) {
+    body{
+        display: grid;
+        place-content: center ;
+        place-items: center ;
+        min-height: 100vh;
+    }
+    body img {
+        background-image: none ;
+        content: url(images/bg-intro-mobile.png);
+        width: 100%;
+
+    }
+    .container 
+    {
+        display: flex;
+        
+        flex-direction: column;
+        align-items: center;
+        justify-content: center ;
+        text-align: center ;
+        padding: 20px;
+    }
+    
+    
+}
